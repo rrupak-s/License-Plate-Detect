@@ -3,7 +3,6 @@
 This project implements license plate detection using the YOLO model, SORT tracker, and OCR text recognition.
 
 ---
-
 ## **Demonstration Video**
 ![demonstration](demo.gif)
 
@@ -23,7 +22,7 @@ This project implements license plate detection using the YOLO model, SORT track
    git clone https://github.com/yourusername/License-Plate-Detect.git
    cd License-Plate-Detect
 2. Add an input video of traffic to the project directory.
-   You can download it from this form 
+   Or download it from 
    ```bash
    https://drive.google.com/drive/folders/15DRTjSqiBbi9_BjgoxI3iviqSI-Z_iZ5
     
