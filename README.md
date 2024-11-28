@@ -22,4 +22,10 @@ This project implements license plate detection using the YOLO model, SORT track
    ```bash
    git clone https://github.com/yourusername/License-Plate-Detect.git
    cd License-Plate-Detect
+2. Add an input video of traffic to the project directory.
+   You can download it from this form 
+   ```bash
+   https://drive.google.com/drive/folders/15DRTjSqiBbi9_BjgoxI3iviqSI-Z_iZ5
+    
+
 
