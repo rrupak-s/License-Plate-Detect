@@ -9,8 +9,8 @@ from util import get_car, read_license_plate, write_csv
 from visualize import*
 import torch
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print("Using device:", device)
+# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# print("Using device:", device)
 
 results = {}
 
@@ -18,8 +18,10 @@ results = {}
 coco_model = YOLO('yolov8s.pt')
 license_plate_detector = YOLO('license_plate.pt')
 
+## name the video of traffic "input.mp4"in work directory
+input_path ="input.mp4"
 # load video
-cap = cv2.VideoCapture('input.mp4')
+cap = cv2.VideoCapture(input_path)
 
 vehicles = [2, 3, 5, 7]
 
@@ -94,6 +96,6 @@ with open('test_interpolated.csv', 'w', newline='') as file:
     writer.writerows(interpolated_data)
 
 result_ = pd.read_csv('./test_interpolated.csv')
-video_path = '2103099-uhd_3840_2160_30fps.mp4'
 
-give_result(result_,video_path)
+
+give_result(result_,input_path)
