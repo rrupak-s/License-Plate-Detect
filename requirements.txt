@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+numpy
+sort-tracker-py
+scipy
+pandas
