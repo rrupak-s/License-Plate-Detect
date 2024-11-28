@@ -2,4 +2,4 @@
 License Plate detection using YOLO model, sort tracker and OCR text recognition.
 
 ## Demonstration video
-![demonstration](demo.mp4)
+![demonstration](demo.gif)
